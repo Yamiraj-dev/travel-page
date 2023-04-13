@@ -57,15 +57,14 @@ footer {
 }
 
 footer ul {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 footer li {
   width: 80px;
   height: 80px;
   margin: 0 50px;
-  
 }
 
 footer img {
