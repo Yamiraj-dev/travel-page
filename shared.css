@@ -15,11 +15,11 @@ header {
 
 #page-logo a {
   padding: 10px;
-  font-family: "OLeo Script", sans-serif;
-  color: rgb(245, 243, 160);
+  font-family: "Lobster", sans-serif;
+  color: rgb(247, 232, 101);
   font-size: 50px;
   text-decoration: none;
-  text-transform: uppercase; /*allows us to transform text into uppercase or other styles*/
+  text-transform: none; /*allows us to transform text into uppercase or other styles*/
   text-shadow: 1px 1px 2px rgb(0, 0, 0); /*adds a shadow to the text with a specific color and pixel offset*/
 }
 
