@@ -14,11 +14,15 @@ main ul {
 main li {
     display: flex;
     background-color: white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    overflow: hidden; /*this allows overflowing child elements to fit the parent container*/
 }
 
 main li img {
     width: 300px;
     height: 280px;
+    object-fit: cover; /*properly fits image into the container*/
 }
 
 .card-content {
