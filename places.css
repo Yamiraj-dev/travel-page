@@ -8,8 +8,16 @@ body {
 }
 
 main ul {
-  width: 800px;
-  margin: 0 auto;
+  width: 1500px;
+  margin: 0 auto 48px auto;
+  display: grid; /*specify the items are to be displayed in a grid*/
+  grid-template-columns: 1fr 1fr; /* splits the elements into columns which are defined by a space to be used, in this case, 1 fraction of the space for each column*/
+  gap: 20px 20px; /*gap between the elements, so gap between rows is 20px and between columns is 20px*/
+}
+
+/*nth of type allows us to select a specific element of the same type within the parent container*/
+li:nth-of-type(3) {
+    grid-column: 1 / span 2;
 }
 
 main li {
